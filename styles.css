@@ -1,0 +1,30 @@
+.box {
+  font-size: 20px;
+  border: 2px solid rgb(12, 8, 8);
+  background-color: blue;
+  color: white;
+  display: none;
+}
+@media (max-width: 300px) {
+  #box1 {
+    display: block;
+    background-color: blueviolet;
+    color: lightblue;
+    text-align: center;
+    box-shadow: 5px 5px green;
+  }
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  #box2 {
+    display: block;
+    background-color: green;
+    color: black;
+  }
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  #box2 {
+    display: block;
+    background-color: green;
+    color: black;
+  }
+}
